@@ -1,0 +1,214 @@
+html{
+    font-size: 62.5%;
+
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+header img{
+    width: 85px;
+    height: 85px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav{
+    margin: 2em;
+   
+
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 6em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    position: relative;
+}
+nav ul li a.active:before{
+    position: absolute;
+    content: "";
+    width: 35%;
+    height: 1px;
+    border-bottom: 2px solid black;
+    bottom: -6px;
+
+}
+/*CSS*/
+main{
+    display: flex;
+    gap: 8em;
+    margin-top: 4em;
+
+}
+.left{
+    width: 45%;
+    font-family:'poppins';
+    font-weight: normal;
+    margin: 0;
+}
+.left h1{
+    font-family: Michroma;
+    
+}
+.join{
+    font-family: Michroma;
+    font-size: 1.8rem;
+}
+.subhead{
+    font-size: 1.8rem;
+}
+.cta{
+    display: flex;
+    gap: 2em;
+}
+.primary{
+    background-color: #f1e2d1;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    border-radius: 1.2em;
+    padding: 1.5em 1em;
+    align-items: center;
+    
+}
+.secondary{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 1em .5em;
+    align-items: center;
+    margin: 0;
+    margin: auto;
+  
+}
+.secondary svg{
+   width: 20px;
+   margin: 2px;
+   
+}
+
+.inbox{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    gap: 3em;
+    padding: 1.8em;
+    position: relative;
+    border:2px solid;
+    border-radius: 25px;
+    
+    
+}
+.inbox svg{
+    width: 25px;
+    height: 25px;
+
+}
+
+.signup{
+    background-color: rgb(50, 138, 239);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    border-radius: 1em;
+    padding: 1em 2em;
+}
+.bottom{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+/* Right column */
+.right{
+    display: grid;
+    gap: 2.3em;
+    grid-template-columns: repeat(2,auto);
+    grid-template-areas: 
+    "left right"
+    "left bottom";
+    margin-bottom: 60px;
+}
+    
+.card{
+    
+    grid-template-columns: repeat(2,auto);
+    width: 300px;
+    border-radius: .8em;
+    padding: 1.1em;
+    display: flex;
+    align-items: end;
+  
+}
+.card1{
+   grid-area: left;
+   background-image: url(pexels-amar-preciado-9993287.jpg);
+   background-size: 175%;
+   background-position: center;
+   background-position: bottom;
+
+   
+}
+.card2{
+    grid-area: right;
+    background-image: url(https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/c01361c8df654e75b7ffaf290132cb87_9366/BYW_Select_Shoes_Black_IG4949_04_standard.jpg);
+    background-size: 95%;
+    background-position: center;
+    background-position: top;
+
+}
+.card3{
+    grid-area: bottom;
+    background-image: url("https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ed70a728ac30413c8fedaf1401017d38_9366/Niteball_Shoes_Black_FZ5742_05_standard.jpg");
+    background-size: 130%;
+    background-position: center;
+    background-position: bottom;
+
+}
+.details{
+    background-color: white;
+    border-radius: 1em;
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.details a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: michroma;
+}
+.details p{
+    font-size: 1.4rem;
+    margin: 0;
+}
+.details .price{
+    font-size: 1.8rem;
+    font-family: michroma;
+    font-weight: normal;
+}
+
+/* Animation*/
+nav ul li a{
+
+}
